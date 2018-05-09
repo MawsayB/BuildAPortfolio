@@ -5,47 +5,48 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio Site</title>
-    <!-- TODO: pick font and link -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
-    <link rel="stylesheet" type="text/css" href="final.css">
   </head>
 
   <body>
 
-<header>
-  <!--bitmoji image here-->
-  <img src="https://www.dropbox.com/s/0mw14lvmr8o2izb/IMG_2516.jpg?raw=1" alt="bitmoji">
-  <h1>MARCY BURSAC</h1>
-  <h2>FULL-STACK DEVELOPER</h2>
+<header class="header">
+  <div class="main_header">
+  <img src="https://www.dropbox.com/s/0mw14lvmr8o2izb/IMG_2516.jpg?raw=1" alt="bitmoji" class="header__logo">
+  <div class="heading_right">
+    <h1 class="header_name">MARCY BURSAC</h1>
+    <h2 class="header_title">FRONT-END NINJA</h2>
+  </div>
+  </div>
 </header>
+<hr>
 
 <main>
   <section class="centerImage">
-    <img src="https://www.dropbox.com/s/owe9g6mocuqak63/podupnorth_051914_1.jpg?raw=1" alt="futuroHome">
+    <img src="https://www.dropbox.com/s/owe9g6mocuqak63/podupnorth_051914_1.jpg?raw=1" alt="futuroHome" name="center_image">
   </section>
 
 
 <section class="showcase">
-  <h2>Featured Work</h2>
-  <ul>
-    <li>
-      <img class="projectPreview" src="https://www.dropbox.com/s/50wyenumcvq5qk2/GymRat.jpg?raw=1" alt="GymRat">
-      <h2>Fitness</h2>
-      <h4>https://github.com/MawsayB/GymRat</h4>
+  <h1>Featured Work</h1>
+  <ul class="featuredWork">
+    <li class="outerPortfolioProject">
+      <img class="projectScreenshot" src="https://www.dropbox.com/s/50wyenumcvq5qk2/GymRat.jpg?raw=1" alt="GymRat" id="gymRat">
+      <h2>FITNESS</h2>
+      <h4>github.com/MawsayB/GymRat</h4>
     </li>
 
-    <li>
-      <img class="projectPreview" src="https://www.dropbox.com/s/47us8ap5y518qww/City-Museum-1.jpg?raw=1" alt="Architecture">
-      <h2>Architecture</h2>
-      <h4>Ask for a demo!</h4>
+    <li class="middlePortfolioProject">
+      <img class="projectScreenshot" src="https://www.dropbox.com/s/47us8ap5y518qww/City-Museum-1.jpg?raw=1" alt="Architecture" id="cityMuseum">
+      <h2 class="textCityMuseum">ARCHITECTURE</h2>
+      <h4 class="textCityMuseum">Ask for a demo!</h4>
     </li>
 
-    <li>
-      <img class="projectPreview" src="https://www.dropbox.com/s/d3h02a91swcleit/grace.png?raw=1" alt="Grace Hopper">
-      <h2>Women in Tech</h2>
-      <h4>https://codepen.io/MawsayB/pen/WjYmxP</h4>
+    <li class="outerPortfolioProject graceHopper">
+      <img class="projectScreenshot" src="https://www.dropbox.com/s/d3h02a91swcleit/grace.png?raw=1" alt="Grace Hopper">
+      <h2>WOMEN IN TECH</h2>
+      <h4>codepen.io/MawsayB/pen/WjYmxP</h4>
     </li>
 
   </ul>

@@ -1,0 +1,101 @@
+body, html {
+  margin-left: 20px;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+}
+
+.header__logo {
+  height: 100px;
+  margin-right: 1em;
+  vertical-align: top;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.header_name {
+  font-weight: 300;
+  font-size: 3em;
+  line-height: 0;
+  color: black;
+}
+
+.heading_right {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 570px;
+}
+
+.header_title {
+  line-height: 0;
+}
+
+.imageSection {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.center_image {
+  width: 100%
+}
+
+.projectScreenshot {
+  width: 250px;
+}
+
+.middlePortfolioProject {
+  width: 40%;
+  display: inline-block;
+}
+
+.outerPortfolioProject {
+  width: 25%;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  width: 1077px;
+  float: left;
+}
+
+h2 {
+    line-height: 0;
+}
+
+h4 {
+  line-height: 0;
+  font-weight: none;
+}
+
+h1
+{
+  color: gray;
+  font-size: 30px;
+  list-style: none;
+}
+
+#gymRat {
+  height: 250px;
+}
+
+#cityMuseum {
+  width: 370px;
+  margin-left: 20px;
+}
+
+.textCityMuseum {
+  margin-left: 20px;
+}
+
+.graceHopper {
+  margin-left: -30px;
+}
