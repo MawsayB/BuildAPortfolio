@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+@media screen and (min-width: 375px) {
+
+  body, html {
+    margin-left: 0;
+  }
+
+  .header {
+    height: 25%;
+    vertical-align: bottom;
+    margin-left: 10%;
+  }
+
+  .header_name {
+    font-size: 36px;
+    margin-top: -40%;
+  }
+
+  .main_header {
+    margin-top: -40px;
+  }
+
+  .header_name {
+    line-height: 1em;
+  }
+
+  .header__logo {
+    margin-left: 300%;
+  }
+
+  .heading_right {
+    margin-left: 3%;
+  }
+
+  .center_image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .outerPortfolioProjectLeft {
+    order: 0;
+
+  }
+  .middlePortfolioProject {
+    order: 1;
+  }
+
+  .outerPortfolioProjectRight {
+    order: 2;
+  }
+
+  #cityMuseum {
+    margin-left: 0;
+    width: 250px;
+  }
+
+  .textCityMuseum {
+    margin-left: 0;
+  }
+
+  .graceHopper {
+    margin-left: inherit;
+  }
+
+  .showcase {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 346px) {
+  body, html {
+  margin-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 470px) {
+
+}
+
+@media screen and (max-width: 850px) {
+
+}

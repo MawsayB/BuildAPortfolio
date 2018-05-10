@@ -54,7 +54,7 @@ body, html {
   display: inline-block;
 }
 
-.outerPortfolioProject {
+.outerPortfolioProjectLeft .outerPortfolioProjectRight{
   width: 25%;
   display: inline-block;
 }
