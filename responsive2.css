@@ -4,6 +4,13 @@ body {
 
 }
 
+@media screen and (max-width: 374px){
+  .header__logo {
+    margin-left: 300%;
+  }
+
+}
+
 @media screen and (min-width: 375px) and (max-width: 526px){
 
   body, html {
@@ -208,29 +215,29 @@ body {
 }
 
 @media screen and (min-width: 1250px){
- .center_image {
-   margin-left: -5%;
-   margin-right: -20%;
- }
+  .center_image {
+    margin-left: -5%;
+    margin-right: -20%;
+  }
 
- hr {
-   margin-left: -5%;
-   width: 81.5%;
- }
+  hr {
+    margin-left: -5%;
+    width: 81.5%;
+  }
 
- .heading_right {
-   margin-left: 40%;
- }
+  .heading_right {
+    margin-left: 40%;
+  }
 
- li {
-   display: inline-block;
- }
+  li {
+    display: inline-block;
+  }
 
   .middlePortfolioProject {
-       margin-left: 6%;
+    margin-left: 6%;
   }
 
   .outerPortfolioProjectRight {
-       margin-left: 2%;
+    margin-left: 2%;
   }
 }
