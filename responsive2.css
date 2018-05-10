@@ -4,7 +4,7 @@ body {
 
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 526px){
 
   body, html {
     margin-left: 0;
@@ -72,17 +72,164 @@ body {
   }
 }
 
-@media screen and (min-width: 346px) {
+@media screen and (min-width: 527px) and (max-width: 656px){
+  .showcase {
+    margin-left: 25%;
+  }
+
   body, html {
-  margin-left: 0;
+    margin-left: 0;
+  }
+
+  .header {
+    height: 25%;
+    vertical-align: bottom;
+    margin-left: 20%;
+  }
+
+  .header_name {
+    font-size: 36px;
+    margin-top: -40%;
+  }
+
+  .main_header {
+    margin-top: -40px;
+  }
+
+  .header_name {
+    line-height: 1em;
+  }
+
+  .header__logo {
+    margin-left: 300%;
+  }
+
+  .heading_right {
+    margin-left: 3%;
+  }
+
+  .center_image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .outerPortfolioProjectLeft {
+    order: 0;
+
+  }
+  .middlePortfolioProject {
+    order: 1;
+  }
+
+  .outerPortfolioProjectRight {
+    order: 2;
+  }
+
+  #cityMuseum {
+    margin-left: 0;
+    width: 250px;
+  }
+
+  .textCityMuseum {
+    margin-left: 0;
+  }
+
+  .graceHopper {
+    margin-left: inherit;
+  }
+
+}
+
+@media screen and (min-width: 657px) and (max-width: 750px){
+  .showcase {
+    margin-left: 30%;
+  }
+
+  body, html {
+    margin-left: 0;
+  }
+
+  .header {
+    height: 25%;
+    vertical-align: bottom;
+    margin-left: 28%;
+  }
+
+  .header_name {
+    font-size: 36px;
+    margin-top: -40%;
+  }
+
+  .main_header {
+    margin-top: -40px;
+  }
+
+  .header_name {
+    line-height: 1em;
+  }
+
+  .header__logo {
+    margin-left: 300%;
+  }
+
+  .heading_right {
+    margin-left: 3%;
+  }
+
+  .center_image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .outerPortfolioProjectLeft {
+    order: 0;
+
+  }
+  .middlePortfolioProject {
+    order: 1;
+  }
+
+  .outerPortfolioProjectRight {
+    order: 2;
+  }
+
+  #cityMuseum {
+    margin-left: 0;
+    width: 250px;
+  }
+
+  .textCityMuseum {
+    margin-left: 0;
+  }
+
+  .graceHopper {
+    margin-left: inherit;
   }
 }
 
+@media screen and (min-width: 751px){
+ .center_image {
+   margin-left: -5%;
+   margin-right: -20%;
+ }
 
-@media screen and (min-width: 470px) {
+ hr {
+   margin-right: 18%;
+ }
 
-}
+ .heading_right {
+   margin-left: 40%;
+ }
 
-@media screen and (max-width: 850px) {
+ li {
+   display: inline-block;
+ }
 
+  .middlePortfolioProject {
+       margin-left: 6%;
+  }
+
+  .outerPortfolioProjectRight {
+       margin-left: 2%;
+  }
 }
