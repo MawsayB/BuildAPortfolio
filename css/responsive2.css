@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1023px){
+
+  .outerPortfolioProjectLeft {
+    order: 0;
+
+  }
+  .middlePortfolioProject {
+    order: 1;
+  }
+
+  .outerPortfolioProjectRight {
+    order: 2;
+  }
+
+  .header__logo {
+    margin-left: 15%;
+  }
+
+  .headerSection {
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+
+  #cityMuseum {
+    margin-left: 0;
+    width: 250px;
+  }
+
+  .graceHopper {
+    margin-left: inherit;
+  }
+
+  .showcase {
+    margin-left: 15%;
+  }
+
+  #title {
+    margin-left: 15%;
+  }
+
+  footer {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px){
+  body, html {
+    margin-left: 0;
+  }
+
+  .header {
+    height: 25%;
+    vertical-align: bottom;
+    margin-left: 20%;
+  }
+
+  .header_name {
+    font-size: 36px;
+  }
+
+  .header_name {
+    line-height: 1em;
+  }
+
+  .center_image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .outerPortfolioProjectLeft {
+    order: 0;
+
+  }
+  .middlePortfolioProject {
+    order: 1;
+  }
+
+  .outerPortfolioProjectRight {
+    order: 2;
+  }
+
+  .showcase {
+    margin-left: 35%;
+  }
+
+  #cityMuseum {
+    margin-left: 0;
+    width: 250px;
+  }
+
+  .textCityMuseum {
+    margin-left: 0;
+  }
+
+  .graceHopper {
+    margin-left: inherit;
+  }
+
+  footer {
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px){
+  .center_image {
+    margin-left: 5%;
+  }
+
+}
